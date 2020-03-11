@@ -1,0 +1,17 @@
+<h3 class="title p-l-m">
+  Family component belongs to MODA module
+</h3>
+
+<div>
+  <h3 class="p-l-m">Getting families data from data service using JSON server</h3>
+  <ol>
+    <li *ngFor="let family of families">
+      The family name is {{ family.name }} and members are {{family.members}}
+    </li>
+  </ol>
+</div>
+
+<div class="p-l-m" *ngIf="isError">
+  <p class="text-center">No data</p>
+  <p><b>Note:</b> If data is not shown, may be JSON server not started. </p>
+</div>

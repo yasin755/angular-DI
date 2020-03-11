@@ -9,9 +9,13 @@ import { AppComponent } from './app.component';
 import { ModAModule } from 'src/modules/modA/modA.module';
 import { ModBModule } from 'src/modules/modB/modB.module';
 
+// Components
+import { ProductComponent } from '../components/products/product.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

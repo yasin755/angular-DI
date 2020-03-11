@@ -15,7 +15,15 @@ export class DataService {
     }
 
     getProducts(): Observable<any> {
-        return this.http.get(this.baseUrl + "posts");
+        return this.http.get(this.baseUrl + "products");
+    }
+
+    getFamilies(): Observable<any> {
+        return this.http.get(this.baseUrl + "families");
+    }
+
+    getLocations(): Observable<any> {
+        return this.http.get(this.baseUrl + "locations");
     }
 
 }

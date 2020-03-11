@@ -1,19 +1,53 @@
 {
-  "posts": [
+  "products": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Benz",
+      "engineType": "petrol"
+    },
+    {
+      "id": 2,
+      "name": "BMW",
+      "engineType": "diesel"
+    },
+    {
+      "id": 3,
+      "name": "Audi",
+      "engineType": "petrol"
     }
   ],
-  "comments": [
+  "families": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "RK family",
+      "members": 4
+    },
+    {
+      "id": 2,
+      "name": "MGR family",
+      "members": 12
+    },
+    {
+      "id": 3,
+      "name": "John family",
+      "members": 6
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "locations": [
+    {
+      "id": 1,
+      "name": "chennai",
+      "coords": "12.566 98.677"
+    },
+    {
+      "id": 2,
+      "name": "Andhra pradesh",
+      "coords": "11.246 45.757"
+    },
+    {
+      "id": 3,
+      "name": "Kerala",
+      "coords": "18.467 42.387"
+    }
+  ]
 }

@@ -14,16 +14,16 @@ export class AppComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.getProductList();
+    //this.getProductList();
   }
 
-  getProductList() {
+  /* getProductList() {
     this.dataService.getProducts().subscribe(
       data => {
         //if (data.status)
         console.log(data);
       }
     )
-  }
+  } */
 
 }

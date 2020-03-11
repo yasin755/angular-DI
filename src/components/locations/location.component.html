@@ -1,0 +1,17 @@
+<h3 class="title p-l-m">
+  Location component belongs to MODB module
+</h3>
+
+<div>
+  <h3 class="p-l-m">Getting locations data from data service using JSON server</h3>
+  <ol>
+    <li *ngFor="let location of locations">
+      The location name is {{ location.name }} and coordinates are {{location.coords}}
+    </li>
+  </ol>
+</div>
+
+<div class="p-l-m" *ngIf="isError">
+  <p class="text-center">No data</p>
+  <p><b>Note:</b> If data is not shown, may be JSON server not started. </p>
+</div>
